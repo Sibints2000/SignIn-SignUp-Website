@@ -203,6 +203,8 @@ form.sign-up-form {
     margin: 0;
     background: none;
     border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
 }
 
 .image {
