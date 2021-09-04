@@ -199,6 +199,12 @@ form.sign-up-form {
     padding: 0.7rem 0;
 }
 
+.btn.transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+}
+
 .image {
     width: 100%;
 }
