@@ -280,6 +280,7 @@ form.sign-up-form {
         transform: translateX(-50%);
         right: initial;
         top: initial;
+        transition: 2s ease-in-out;
     }
 
     .signin-signup{
@@ -314,7 +315,11 @@ form.sign-up-form {
          padding: 0.5rem 0;
      }
 
-     
+     .btn.transparent {
+         width: 110px;
+         height: 35px;
+         font-size: 0.7rem;
+     }
 
      .image {
          width: 200px;
