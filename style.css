@@ -350,4 +350,10 @@ form.sign-up-form {
      .container.sign-up-mode .left-panel .content {
          transform: translateY(-300px);
      }
+
+     .container.sign-up-mode .signin-signup {
+         top: 5%;
+         transform: translate(-50%, 0);
+         left: 50%;
+     }
 }
