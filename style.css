@@ -236,3 +236,8 @@ form.sign-up-form {
 .container.sign-up-mode .left-panel .content {
     transform: translateX(-800px);
 }
+
+.container.sign-up-mode .right-panel .content,
+.container.sign-up-mode .right-panel .image {
+    transform: translateX(0px);
+}
