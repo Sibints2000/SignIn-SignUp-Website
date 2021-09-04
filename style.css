@@ -212,3 +212,7 @@ form.sign-up-form {
 .image {
     width: 100%;
 }
+
+.right-panel .content, .right-panel .image {
+    transform: translateX(800px);
+}
