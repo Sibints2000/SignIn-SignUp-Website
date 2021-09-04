@@ -275,6 +275,11 @@ form.sign-up-form {
     .container:before {
         width: 1500px;
         height: 1500px;
+        left: 30%;
+        bottom: 68%;
+        transform: translateX(-50%);
+        right: initial;
+        top: initial;
     }
 
     .signin-signup{
