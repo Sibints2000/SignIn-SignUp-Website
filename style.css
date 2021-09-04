@@ -192,6 +192,7 @@ form.sign-up-form {
 
 .panel .content {
     color: #fff;
+    transition: .9s .6s ease-in-out;
 }
 
 .panel h3 {
@@ -217,6 +218,7 @@ form.sign-up-form {
 
 .image {
     width: 100%;
+    transition: .9s .6s ease-in-out;
 }
 
 .right-panel .content, .right-panel .image {
@@ -228,4 +230,9 @@ form.sign-up-form {
 .container.sign-up-mode:before {
     transform: translate(100%, -50%);
     right: 52%;
+}
+
+.container.sign-up-mode .left-panel .image,
+.container.sign-up-mode .left-panel .content {
+    transform: translateX(-800px);
 }
