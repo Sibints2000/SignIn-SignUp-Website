@@ -344,4 +344,9 @@ form.sign-up-form {
          bottom: 32%;
          right: initial;
      }
+
+     .container.sign-up-mode .left-panel .image,
+     .container.sign-up-mode .left-panel .content {
+         transform: translateY(-300px);
+     }
 }
