@@ -265,3 +265,50 @@ form.sign-up-form {
     z-index: 2;
     opacity: 1;
 }
+
+@media (max-width: 870px) {
+    .container{
+        min-height: 800px;
+        height: 100vh;
+    }
+
+    .container:before {
+        display: none;
+    }
+
+    .signin-signup{
+        width: 100%;
+        left: 50%;
+        top: 95%;
+        transform: translate(-50%, -100%);
+    }
+
+     .panels-container {
+         background-color: green;
+         z-index: 10;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 2fr 1fr;
+     }
+
+     .panel {
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center;
+     }
+
+     .image {
+         width: 200px;
+     }
+
+     .left-panel {
+         grid-row: 1 / 2;
+     }
+
+    .right-panel {
+         grid-row: 3 / 4;
+    }
+
+     .right-panel .content, .right-panel.image {
+         transform: translateX(0px);
+     }
+}
