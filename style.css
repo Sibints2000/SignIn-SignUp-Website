@@ -273,7 +273,8 @@ form.sign-up-form {
     }
 
     .container:before {
-        display: none;
+        width: 1500px;
+        height: 1500px;
     }
 
     .signin-signup{
@@ -284,8 +285,6 @@ form.sign-up-form {
     }
 
      .panels-container {
-         background-color: green;
-         z-index: 10;
          grid-template-columns: 1fr;
          grid-template-rows: 1fr 2fr 1fr;
      }
