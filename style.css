@@ -241,3 +241,11 @@ form.sign-up-form {
 .container.sign-up-mode .right-panel .image {
     transform: translateX(0px);
 }
+
+.container.sign-up-mode .left-panel {
+    pointer-events: none; 
+}
+
+.container.sign-up-mode .right-panel {
+    pointer-events: all;
+}
