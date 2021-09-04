@@ -61,6 +61,7 @@ form {
     overflow: hidden;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    transition: 0.2s 0.7s ease-in-out;
 }
 
 form.sign-in-form {
@@ -253,4 +254,14 @@ form.sign-up-form {
 
 .container.sign-up-mode .signin-signup {
     left: 25%;
+}
+
+.container.container.sign-up-mode form.sign-in-form {
+    z-index: 1;
+    opacity: 0;
+}
+
+.container.container.sign-up-mode form.sign-up-form {
+    z-index: 2;
+    opacity: 1;
 }
