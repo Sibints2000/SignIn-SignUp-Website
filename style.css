@@ -205,6 +205,8 @@ form.sign-up-form {
     border: 2px solid #fff;
     width: 130px;
     height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
 }
 
 .image {
